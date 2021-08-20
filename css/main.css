@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+.fa-instagram,.fa-facebook-square{
+    color:#6c757d;
+}
+
+
+.navbar-brand {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+}
+.h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5{
+    font-family: 'Playfair Display',serif;
+}
