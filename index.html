@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <meta http-equiv="refresh" content="5" />
+    <meta http-equiv="refresh" content="500" />
     <title>Martins' Bakery</title>
     <link rel="shortcut icon" href="./assets/imagens/favicon_io/favicon.ico" type="image/x-icon">
     <!-- Required meta tags -->
@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
    <!-- Bootstrap CSS v5.1.0 -->
-   <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+   <!--<link rel="stylesheet" href="./css/bootstrap.min.css">--> 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
    <!-- CSS PERSONALIZADO -->
    <link rel="stylesheet" href="./css/main.css">
    <!-- Font Awesome icons (free version)-->
@@ -17,30 +19,35 @@
   </head>
   <body>
       <!-- NAVIBAR -->
-      <nav class="navbar navbar-expand-lg navbar-trogglabel fixed-top navbar-dark bg-black" >
+      <nav class="navbar navbar-expand-lg 
+      fixed-top navbar-dark bg-black" id="mainNav" >
         <div class="container">
           <!-- NAVIBAR MOBILE -->
           <a class="navbar-brand d-lg-none" href="./index.html">Martins' Bakery</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsCollapse" 
-          aria-controls="navbarsCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarResponsive" 
+          aria-controls="navbarResponsive" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          Menu
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- NAVBAR COLLAPSE -->
-        <div class="navbar-collapse collapse" id="navbarsCollapse">
+        <div class="collapse navbar-collapse " id="navbarResponsive">
 
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Sobre</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Produtos</a></li> 
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Contato</a></li>           
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#produtos">Produtos</a></li> 
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#contato">Contato</a></li>           
           </ul>
-
           <a class="navbar-brand d-none d-lg-flex mx-lg-auto"  href="./index.html">Martins Backery</a>
-          
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Galeria</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Eventos</a></li>
-            <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Receitas</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#galeria">Galeria</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#eventos">Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="#receitas">Receitas</a></li>
           </ul>
         </div>
         </div>
@@ -90,25 +97,74 @@
         <div></div>
       </header>
       <!-- SOBRE -->
-     
-      <div></div>
+      <section class="" id="sobre">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Sobre</h1>
+          <hr class="mt-2 mb-5">
+        </div>  
+      </section>
       <!-- PRODUTOS -->
+      <section  class="" id="produtos">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Produtos</h1>
+          <hr class="mt-2 mb-5">
+        </div>  
+      </section>
       <!-- GALERIA -->
       <!-- modelo : https://startbootstrap.com/snippets/thumbnail-gallery -->
-      <div class="container">
-        <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Galeria</h1>
-        <hr class="mt-2 mb-5">
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-          </a>
+      <section  class="" id="galeria">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Galeria</h1>
+          <hr class="mt-2 mb-5">
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
+            </a>
+          </div>
+
         </div>
-
-      </div>
-
+      </section>
       <!-- EVENTOS -->
+      <section  class="" id="eventos">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Eventos</h1>
+          <hr class="mt-2 mb-5">
+        </div> 
+      </section>
       <!-- RECEITAS -->
+      <section  class="" id="receitas">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Receitas</h1>
+          <hr class="mt-2 mb-5">
+        </div> 
+      </section>
       <!-- CONTATOS -->
+      <section  class="" id="contatos">
+        <div class="container">
+          <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Contatos</h1>
+          <hr class="mt-2 mb-5">
+        </div> 
+      </section>
       
       
       
