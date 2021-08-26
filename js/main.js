@@ -1,17 +1,31 @@
 var nav = document.querySelector('nav');
-var logotipo = document.querySelector('a .navbar-brand');
+
 
 
 window.addEventListener('scroll', function(){
     if(window.pageYOffset > 100){
         nav.classList.add('navbar-dark','bg-dark','shadow');
-        logotipo.classList.add('logotipo');
+        
         
        }else{
         nav.classList.remove('navbar-dark','bg-dark','shadow');
+        
+    }
+});
+
+
+var logotipo = document.querySelector('.navbar-brand');
+
+window.addEventListener('scroll', function(){
+    if(window.pageYOffset > 100){
+        logotipo.classList.add('logotipo');
+        
+       }else{
         logotipo.classList.remove('logotipo');
     }
 });
+
+
 
 
 const navbarToggler = document.body.querySelector('.navbar-toggler');
