@@ -7,13 +7,16 @@
 
 
 .navbar-brand {
+
     font-family: 'Bebas Neue';
     font-size: 2rem;
 }
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5{
     font-family: 'Playfair Display',serif;
 }
-
+.logotipo{
+    background-image: url(../assets/imagens/logo.png);
+}
 
 header.masthead {
     padding-top: 10.5rem;
@@ -25,10 +28,6 @@ header.masthead {
     background-position: center center;
     background-size: cover;
 }
-header.masthead .masthead-subheading{
-
-
-}
-header.masthead .masthead-heading {
-
+.page-section {
+  padding: 6rem 0;
 }
