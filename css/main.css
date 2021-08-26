@@ -15,12 +15,20 @@
 }
 
 
-.masthead {
-    padding-top: 3rem;
+header.masthead {
+    padding-top: 10.5rem;
     padding-bottom: 6rem;
+    color: #000000;
     background-image: url(../assets/imagens/capa_principal.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+}
+header.masthead .masthead-subheading{
+
+
+}
+header.masthead .masthead-heading {
+
 }
