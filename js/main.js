@@ -14,7 +14,7 @@ window.addEventListener('scroll', function(){
 });
 
 
-var logotipo = document.querySelector('.navbar-brand');
+var logotipo = document.querySelector('div');
 
 window.addEventListener('scroll', function(){
     if(window.pageYOffset > 100){

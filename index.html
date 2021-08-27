@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <meta http-equiv="refresh" content="800" />
+    <meta http-equiv="refresh" content="80" />
     <title>Martins' Bakery</title>
     <link rel="shortcut icon" href="./assets/imagens/favicon_io/favicon.ico" type="image/x-icon">
 
@@ -21,12 +21,11 @@
   </head>
   <body>
       <!-- NAVIBAR -->
-      <nav class="navbar navbar-expand-lg fixed-top 
-      navbar-light p-md-3 ">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light p-md-3 ">
         <div class="container">
           <!-- NAVIBAR MOBILE -->
-          <a class="navbar-brand d-lg-none" href="./index.html"></a>
-
+          <!-- corrigir o comportamento  da logo-->
+          <a class="navbar-brand d-lg-none" href="./index.html">Martins' Bakery</a>
           <button class="navbar-toggler" 
           type="button" 
           data-bs-toggle="collapse" 
@@ -38,7 +37,11 @@
         </button>
         <!-- NAVBAR COLLAPSE -->
         <div class="collapse navbar-collapse " id="navbarResponsive">
-          <a class="navbar-brand d-none d-lg-flex mx-lg-auto logotipo"  href="./index.html"></a>
+          <!-- corrigir o comportamento  da logo-->
+          <div id=""> 
+            <a class="navbar-brand d-none d-lg-flex mx-lg-auto "  href="./index.html">Martins' Bakery</a>
+          </div>
+          
           <ul class="navbar-nav text-uppercase ms-auto py-lg-0">
             <li class="nav-item"><a class="nav-link" aria-current="page" href="#sobre">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" aria-current="page" href="#produtos">Produtos</a></li> 
@@ -54,13 +57,14 @@
 
       <!-- MASTHEAD -->
       <header class="masthead">
+        <!-- TELA INICIAL-->
         <div class="container my-auto">
           <div class="row justify-content-end">
             <div class="col-12 col-md-8 col-lg-6 text-center">
               <h6 class="text-xs text-whi-75">Roscas & Pães </h6>
-              <h1 class="display-1 text-black mb-4">Martins' Backery</h1>
+              <h1 class="display-1 text-black mb-4">Martins' Bakery</h1>
               <P class="text-center text-black-75 mb-7">
-                A unique café located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
+                Olá voce esta no lugar certo para quem gosta de saborear aquela rosca caseira !
               </P>
               <a class="btn btn-outline-primary 
               text-black text-uppercase text-primary-hover mb-7 mb-md-0" 
@@ -74,12 +78,12 @@
             <div class="col-12 col-md-8 col-lg-6">
               <!-- Social Link -->
               <ul class="list-inline text-center text-md-center md-3 my-md-5">
-                <li class="list-inline-item">
+                <li class="list-inline-item fa-2x">
                   <a class="text-black-75 text-primary-hover" href="https://www.facebook.com/martinsbakerybr" target="_blank">
                     <i class="fab fa-facebook-square"></i>
                   </a>
                 </li>
-                <li class="list-inline-item ms-4">
+                <li class="list-inline-item ms-4 fa-2x">
                   <a class="text-black-75 text-primary-hover" href="https://www.instagram.com/martinsbakerybr" target="_blank">
                     <i class="fab fa-instagram"></i>
                   </a>
@@ -100,42 +104,43 @@
       <section  class="page-section" id="produtos">
         <div class="container">
           <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Produtos</h1>
-          <hr class="mt-2 mb-5">
-        </div>  
+          <span class="mt-2 mb-5"></span>
+        </div>
       </section>
       <!-- GALERIA -->
-      <!-- modelo : https://startbootstrap.com/snippets/thumbnail-gallery -->
+      
       <section  class="page-section" id="galeria">
         <div class="container">
           <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Galeria</h1>
-          <hr class="mt-2 mb-5">
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-            </a>
+          <span class="mt-3 mb-5"></span>
+          <!-- Section: Images -->
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-lg-0">
+              <img src="./assets/imagens/galeria/horizontal/20210825_230748.jpg"              
+              alt="" 
+              class="w-100 shadow-1-strong rounded mb-4">
+              <img src="./assets/imagens/galeria/vertical/IMG_20210811_222746_225.jpg" 
+                   alt="" 
+                   class="w-100 shadow-1-strong rounded mb-4">
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img src="./assets/imagens/galeria/vertical/20210826_004944.jpg" 
+                   alt="" 
+                   class="w-100 shadow-1-strong rounded mb-4">
+              <img src="./assets/imagens/galeria/horizontal/20210825_230754.jpg" 
+                   alt="" 
+                   class="w-100 shadow-1-strong rounded mb-4">
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img src="./assets/imagens/galeria/horizontal/20210825_230852.jpg" 
+                   alt="" 
+                   class="w-100 shadow-1-strong rounded mb-4">
+              <img src="./assets/imagens/galeria/vertical/20210811_222653.jpg" 
+                   alt="" 
+                   class="w-100 shadow-1-strong rounded mb-4">
+            </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-            </a>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <a href="#" class="d-block mb-4 h-100">
-              <img src="./assets/imagens/CapaFace_martinsbakerybr.png" alt="" class="img-fluid img-thumbnail">
-            </a>
-          </div>
-
-        </div>
+        </div>  
       </section>
       <!-- EVENTOS -->
       <section  class="page-section" id="eventos">
@@ -152,7 +157,7 @@
         </div> 
       </section>
       <!-- CONTATOS -->
-      <section  class="page-section" id="contatos">
+      <section  class="page-section" id="contato">
         <div class="container">
           <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Contatos</h1>
           <hr class="mt-2 mb-5">

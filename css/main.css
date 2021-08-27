@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bebas+Neue);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
+
 .fa-instagram,.fa-facebook-square{
     color:#6c757d;
 }
@@ -14,11 +15,10 @@
 .h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5{
     font-family: 'Playfair Display',serif;
 }
-a .logotipo{
-    background-image: url(../assets/imagens/logo.png);
-    background-repeat: no-repeat;
-    background-position: left left;
-    background-size: cover;
+#logotipo a{ 
+    position: absolute; 
+    top: -9999px; 
+    left: -9999px;
 }
 
 header.masthead {
