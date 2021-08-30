@@ -34,3 +34,8 @@ header.masthead {
 .page-section {
   padding: 6rem 0;
 }
+.boxProduto{
+    max-width: 540px; 
+    border: none;
+    padding-bottom: 2rem;
+}
