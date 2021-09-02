@@ -2,9 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 
 
-.fa-instagram,.fa-facebook-square{
+.fa-instagram,.fa-facebook-square, .fa-whatsapp{
     color:#6c757d;
 }
+
 
 
 .navbar-brand {
@@ -32,10 +33,38 @@ header.masthead {
     background-size: cover;
 }
 .page-section {
-  padding: 6rem 0;
+  padding-top:6rem ;
 }
 .boxProduto{
     max-width: 540px; 
     border: none;
     padding-bottom: 2rem;
 }
+a {
+ text-decoration: none;
+ color: #000000;
+}
+
+.form-grupo{
+    padding-bottom: 8px;
+}
+.footer-section{
+    padding-top: 3rem ;
+    padding-bottom: 6rem;
+}
+.rodape{
+list-style: none;
+text-align: center;
+}
+.rodape ul li{
+    list-style: none;
+    text-align: center;
+    }
+
+.fim{
+    padding-bottom: 6rem;
+}
+.espacamento{
+    padding-bottom: 3rem;
+    text-decoration: underline;
+} 
